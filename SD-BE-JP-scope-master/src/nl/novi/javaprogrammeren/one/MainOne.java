@@ -4,9 +4,10 @@ public class MainOne {
 
     public static void main(String[] args) {
 
-        Person sjaak = new Person("Nick");
-        sjaak.setAge(30);
-        sjaak.ageOneYear();
-        System.out.println("Leeftijd: " + sjaak.getAge());
+        Person seanArcher = new Person("Castor Troy");
+        seanArcher.setAge(30);
+        seanArcher.ageOneYear();
+        System.out.println(seanArcher.getName());
+        System.out.println("Leeftijd: " + seanArcher.getAge());
     }
 }
